@@ -20,3 +20,10 @@ li {
 li span {
   display: block;
 }
+
+@media (max-width: 639px) {
+.bg-image {
+  opacity: 0.4;
+  background-image: url('../image/DSC.jpg');
+}
+}
